@@ -3,7 +3,7 @@ package models;
 public class VerifyNumber{
 	
 	public void binaryVerificator(int userInput){
-		if (userInput == (1)||(0)) {
+		if (userInput == (1)|| userInput == (0)) {
 			System.out.println("El numero es binario");
 		}else{
 			System.out.println("El numero no es binario");
